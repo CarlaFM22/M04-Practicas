@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    /* 
+    animation-name: (obligatoria)
+    animation-duration: (obligatoria)
+    animation-timing-function:(obligatoria) linear, ease-in, ease-out, ease-in-out
+    animation-delay:
+    animation-iteration-count:
+    */
+
+    /* animation: laMevaAnimacio 6s ease-in infinite; */
+
+}
+
+
+@keyframes laMevaAnimacio {
+    /* from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: green;
+    } */
+
+    0% {
+        background-color: blue;
+        border-radius: 0%;
+    }
+    23% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: green;
+        border-radius: 100%;
+    }
+}
+
+.box {
+    /* 
+    transition: (obligatoria)
+    transition-duration: (obligatoria)
+    transition-timing-function: (obligatoria)
+    transition-delay:
+    */
+
+    transition: all 2s ease-in-out;
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 100%;
+    /* transform: translateX(200px); */
+    /* transform: scale(0.5); */
+    transform: rotate(30deg);
+}

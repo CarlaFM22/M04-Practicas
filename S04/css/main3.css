@@ -1,0 +1,40 @@
+html {
+    font-size: 16px;
+    /* 16px és el que hi ha per defecte, és recomanable pujar-ho una mica. */
+    font-size: 18px;
+    font-size: 1.1rem;
+}
+
+/* 
+Unitats: px, em, rem, %, vw, vh
+-px: nº de pixels exacte. No fer servir a no ser que segui per coses petites.
+-em: X vegades el valor de l'element superior. Utilitzant principalment per la font-size (Però millor fer servir rem).
+-rem: X vegades el valor de l'element root <html>.
+-%: Percentatge sobre el valor de l'element superior. Utilitzat per tamanys de contenidors.
+-vw: % del width del viewport (pantalla).
+-vh: % del height del viewport (pantalla).
+*/
+
+/* Intentarà posar primer Arial, si no posarà Helvetica, si no qualsevol sans-serif */
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+section > p > span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: turquoise;
+    color: rgb(63, 13, 113);
+}

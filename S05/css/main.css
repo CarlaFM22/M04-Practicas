@@ -1,0 +1,58 @@
+#box-1 {
+    background-color: aqua;
+    /*border-width: 2px;
+    border-color: black;
+    border-style: solid;*/
+
+    /*Es el mateix que dalt*/
+    border: 2px black solid;
+    border-top-color: blue;
+}
+
+#box-2 {
+    border: 2px green solid;
+    border-radius: 10px;
+
+    border-radius: 5px 10px 15px 20px;
+
+    box-shadow: black 10px 2px 5px;
+    /* el 3r número és el difuminat */
+
+    margin: 2rem;
+    padding: 1rem;
+
+    margin: 0.5rem 1rem 1.5rem 2rem;
+    margin-top: 3rem;
+}
+
+#box-3 {
+    background-image: url('../img/mountain-g0f6fa9081_640.jpg');
+    height: 200vh;
+    width: 80vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button {
+    display: block;
+    padding: 0.5rem 1.3rem;
+    margin: 1rem auto;
+    background-color: rgb(67, 153, 199);
+    color: rgb(0, 213, 255);
+    border: 0;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(19, 99, 104);
+    cursor: pointer;
+
+}
+
+button:active {
+    outline: 1px black inset;
+}
+
+button img {
+    width: 1.2rem;
+}

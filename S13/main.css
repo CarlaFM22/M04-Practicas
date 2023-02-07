@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star2 {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(32, 60, 218);
+}
+
+div.star2::after {
+    top: 50px;
+    left: -100px;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid rgb(32, 60, 218);
+}
+
+.next-element {
+    clear: b;
+}

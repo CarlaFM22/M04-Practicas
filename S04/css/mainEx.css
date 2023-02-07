@@ -1,0 +1,44 @@
+:root {
+    --blue: rgb(84, 120, 193);
+    --white: rgb(255,255,255);
+    --gray: rgba(210, 223, 251, 0.8);
+    --darkblue: rgb(73, 105, 169);
+    --black1: rgb(10, 15, 24);
+    --black2: rgb(0,0,0);
+}
+
+body {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+header, footer {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+section {
+    background-color: var(--gray);
+    color: var(--darkblue);
+}
+
+.article1:hover {
+    background-color: var(--black1);
+    color: var(--white);
+}
+
+a:active {
+    color: var(--black2);
+}
+
+span {
+    font-weight: bold;
+}
+
+.text1 {
+    font-style: italic;
+}

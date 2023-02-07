@@ -1,0 +1,49 @@
+/* Tag selector */
+h3 { 
+    color: blue;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* ID Selector */
+#about-section {
+    color: red;
+}
+
+#about-title {
+    color: yellow;
+}
+
+/* Class Selector */
+.primary-heading {
+    color: green;
+}
+
+/* Multiple Selector */
+#about-title, .primary-heading, h1 {
+    font-style: italic;
+}
+
+/* Nested Selectors */
+#about-section p {
+    color: darkcyan;
+}
+
+#contact-section * {
+    color: green;
+}
+
+#about-section > p {
+    color: darkorchid;
+}
+
+/* Pseudo-Classes */
+#about-section:hover {
+    background-color: yellowgreen;
+}
+
+#about-section:active {
+    background-color: brown;
+}
